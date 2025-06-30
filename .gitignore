@@ -19,7 +19,8 @@ crash.*.log
 # to change depending on the environment.
 *.tfvars
 *.tfvars.json
-variables.tf
+
+
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
@@ -34,7 +35,7 @@ override.tf.json
 # !example_override.tf
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
-    destrou.tfplan
+    destroy.tfplan
     meu_plan3.tfplan
     meu_plan4.tfplan
     meu_plan5.tfplan
